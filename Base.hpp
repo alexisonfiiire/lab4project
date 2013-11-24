@@ -3,6 +3,8 @@
 #include "Bloodtests.hpp"
 #include "MedicalImages.hpp"
 #include "PhysicalTests.hpp"
+#include <cstdlib>
+
 using namespace std;
 
 
@@ -12,10 +14,12 @@ using namespace std;
 class Base {
 public: Base();		//Default constructor
 		~Base();	//Default destructor
+		void Display();
+		//void Examine();
 		
 		BloodTests *class1;
 		MedicalImages *class2;
-		PhysicalTests *class3;
+		PhysicalTests class3;
 };
 
 #endif
