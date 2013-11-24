@@ -8,8 +8,7 @@ int main()
 	int choice;
 	int x = 1;
 	Base Patient;
-	cout << "test";
-	cout << "Test2";
+
 	while (x != 0)		//Will be in an infinite while loop unless x is 0;
 	{
 

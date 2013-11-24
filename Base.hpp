@@ -16,7 +16,7 @@ public: Base();		//Default constructor
 		~Base();	//Default destructor
 		void Display();
 		//void Examine();
-		
+
 		BloodTests *class1;
 		MedicalImages *class2;
 		PhysicalTests class3;

@@ -22,6 +22,7 @@ void PhysicalTests::urineTest()
 	{
 		urineColour = "Cloudy";
 		cout << endl << "Urine test result: " << urineColour << endl;
+
 	}
 }
 PhysicalTests::PhysicalTests()

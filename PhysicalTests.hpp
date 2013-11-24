@@ -9,8 +9,6 @@ class PhysicalTests {
 public: PhysicalTests();		//Default constructor
 		~PhysicalTests();	//Default destructor
 		void urineTest();
-
-
 		string urineColour;
 
 };
