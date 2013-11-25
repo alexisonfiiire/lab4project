@@ -168,7 +168,6 @@ int main()
 				  x = 0;
 				  cout << "The program will now exit." << endl; //Terminates the program.
 				  break;
-
 		}
 		default:
 		{
