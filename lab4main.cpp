@@ -78,7 +78,7 @@ int main()
 					  << "* Blood Pressure.................." << endl
 					  << "* Body Temperature................" << endl;
 				  int y = 1;
-					
+
 					while (y != 0)		//Will be in an infinite while loop unless x is 0;
 					{
 						int choice2;
