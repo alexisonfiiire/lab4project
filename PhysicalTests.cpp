@@ -1,36 +1,20 @@
 #include "PhysicalTests.hpp"
-#include <iostream>
-#include <string>
 
-void PhysicalTests::urineTest()
-{
-	cout << "\nPerforming a urine test..." << endl;
-	int randomizer;
-	string urineColour;
-	randomizer = rand() % 3;
-	if (randomizer == 1)
-	{
-		urineColour = "Dark colour";
-		cout << endl << "Urine test result: " << urineColour << endl;
-	}
-	if (randomizer == 2)
-	{
-		urineColour = "Reddish colour";
-		cout << endl << "Urine test result: " << urineColour << endl;
-	}
-	if (randomizer == 3)
-	{
-		urineColour = "Cloudy";
-		cout << endl << "Urine test result: " << urineColour << endl;
+using namespace std;
 
-	}
-}
-PhysicalTests::PhysicalTests()
+PhysicalTests::PhysicalTests() //get patient info from the user
 {
-	urineColour = "";
+	comments = " ";
+	annotation = " ";
+	cout << "Enter Patient's First name: ";
+	cin >> firstname;
+	cout << "Enter Patient's last name: ";
+	cin >> lastname;
+	cout << "Social Insurance Number: ";
+	cin >> SIN;
+	cout << "Enter Patient's age: ";
+	cin >> age;
+	cout << "Patient's gender(Type 'M' or 'F'): ";
+	cin >> gender;
 }
 
-PhysicalTests::~PhysicalTests()
-{
-	urineColour = "";
-}
